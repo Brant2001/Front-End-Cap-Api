@@ -1,0 +1,93 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Jim",
+            "lastName": "Slim",
+            "email": "Jim@Slim.com",
+            "password": "slimjim"
+        }
+    ],
+    "apiaries": [
+        {
+            "id": 1,
+            "userId": 1,
+            "name": "Apiary1"
+        }
+    ],
+    "hives": [
+        {
+            "id": 1,
+            "apiaryId": 1,
+            "beeTypeId": 1,
+            "hiveTypeId": 1,
+            "name": "Hive1",
+            "ageOfQueen": "3 yrs"
+        }
+    ],
+    "logs": [
+        {
+            "id": 1,
+            "hiveId": 1,
+            "insTypeId": 1,
+            "date": "2020-05-02",
+            "weather": "warm, partly cloudy, and windy",
+            "notes": "This is a dated log file that contains a lot of important information that has been autopopulated as well as manually entered if chosen. This can include more specific weather information, health information, and any various details and assessment."
+        }
+    ],
+    "beeTypes": [
+        {
+            "id": 1,
+            "type": "Russian"
+        },
+        {
+            "id": 2,
+            "type": "Carniolan"
+        },
+        {
+            "id": 3,
+            "type": "Buckfast"
+        },
+        {
+            "id": 4,
+            "type": "Italian"
+        },
+        {
+            "id": 5,
+            "type": "African"
+        }
+    ],
+    "hiveTypes": [
+        {
+            "id": 1,
+            "type": "Langstroth"
+        },
+        {
+            "id": 2,
+            "type": "Warre"
+        },
+        {
+            "id": 3,
+            "type": "Topbar"
+        }
+    ],
+    "insTypes": [
+        {
+            "id": 1,
+            "type": "General Inspection"
+        },
+        {
+            "id": 1,
+            "type": "First Spring Checkup"
+        },
+        {
+            "id": 1,
+            "type": "Pest Inspection"
+        },
+        {
+            "id": 1,
+            "type": "Final Fall Checkup"
+        }
+    ]
+    
+}
