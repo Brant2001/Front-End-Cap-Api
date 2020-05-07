@@ -1,93 +1,131 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "firstName": "Jim",
-            "lastName": "Slim",
-            "email": "Jim@Slim.com",
-            "password": "slimjim"
-        }
-    ],
-    "apiaries": [
-        {
-            "id": 1,
-            "userId": 1,
-            "name": "Apiary1"
-        }
-    ],
-    "hives": [
-        {
-            "id": 1,
-            "apiaryId": 1,
-            "beeTypeId": 1,
-            "hiveTypeId": 1,
-            "name": "Hive1",
-            "ageOfQueen": "3 yrs"
-        }
-    ],
-    "logs": [
-        {
-            "id": 1,
-            "hiveId": 1,
-            "insTypeId": 1,
-            "date": "2020-05-02",
-            "weather": "warm, partly cloudy, and windy",
-            "notes": "This is a dated log file that contains a lot of important information that has been autopopulated as well as manually entered if chosen. This can include more specific weather information, health information, and any various details and assessment."
-        }
-    ],
-    "beeTypes": [
-        {
-            "id": 1,
-            "type": "Russian"
-        },
-        {
-            "id": 2,
-            "type": "Carniolan"
-        },
-        {
-            "id": 3,
-            "type": "Buckfast"
-        },
-        {
-            "id": 4,
-            "type": "Italian"
-        },
-        {
-            "id": 5,
-            "type": "African"
-        }
-    ],
-    "hiveTypes": [
-        {
-            "id": 1,
-            "type": "Langstroth"
-        },
-        {
-            "id": 2,
-            "type": "Warre"
-        },
-        {
-            "id": 3,
-            "type": "Topbar"
-        }
-    ],
-    "insTypes": [
-        {
-            "id": 1,
-            "type": "General Inspection"
-        },
-        {
-            "id": 1,
-            "type": "First Spring Checkup"
-        },
-        {
-            "id": 1,
-            "type": "Pest Inspection"
-        },
-        {
-            "id": 1,
-            "type": "Final Fall Checkup"
-        }
-    ]
-    
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Jim",
+      "lastName": "Slim",
+      "email": "Jim@Slim.com",
+      "password": "slimjim"
+    },
+    {
+      "name": "Buzz Buzzer",
+      "email": "b@b.com",
+      "password": "bb",
+      "id": 2
+    }
+  ],
+  "apiaries": [
+    {
+      "name": "Apiary2",
+      "location": "456 way",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Apiary4",
+      "location": "Another place road",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Apiary5",
+      "location": "123 place",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Apiary3",
+      "location": "sidv[oaso[gsod",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Apiary4",
+      "location": "dfijaegoadfhbiuaheg",
+      "userId": 2,
+      "id": 7
+    }
+  ],
+  "hives": [
+    {
+      "id": 1,
+      "apiaryId": 2,
+      "beeTypeId": 1,
+      "hiveTypeId": 1,
+      "name": "Hive1",
+      "queenAge": "1 yrs"
+    },
+    {
+      "id": 1,
+      "apiaryId": 2,
+      "beeTypeId": 1,
+      "hiveTypeId": 1,
+      "name": "Hive2",
+      "queenAge": "1 yrs"
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "hiveId": 1,
+      "insTypeId": 1,
+      "date": "11-20-20",
+      "weather": "Warm and sunny with heavy winds",
+      "notes": "This is a dated log file that contains a lot of important information that has been autopopulated as well as manually entered if chosen. This can include more specific weather information, health information, and any various details and assessment. "
+    }
+  ],
+  "beeTypes": [
+    {
+      "id": 1,
+      "type": "Russian"
+    },
+    {
+      "id": 2,
+      "type": "Carniolan"
+    },
+    {
+      "id": 3,
+      "type": "Buckfast"
+    },
+    {
+      "id": 4,
+      "type": "Italian"
+    },
+    {
+      "id": 5,
+      "type": "African"
+    }
+  ],
+  "hiveTypes": [
+    {
+      "id": 1,
+      "type": "Langstroth"
+    },
+    {
+      "id": 2,
+      "type": "Warre"
+    },
+    {
+      "id": 3,
+      "type": "Topbar"
+    }
+  ],
+  "insTypes": [
+    {
+      "id": 1,
+      "type": "General Inspection"
+    },
+    {
+      "id": 1,
+      "type": "First Spring Checkup"
+    },
+    {
+      "id": 1,
+      "type": "Pest Inspection"
+    },
+    {
+      "id": 1,
+      "type": "Final Fall Checkup"
+    }
+  ]
 }
