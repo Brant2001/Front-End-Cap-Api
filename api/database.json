@@ -1,26 +1,13 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Jim",
-      "lastName": "Slim",
-      "email": "Jim@Slim.com",
-      "password": "slimjim"
-    },
-    {
-      "name": "Buzz Buzzer",
+      "name": "Barry Bee",
       "email": "b@b.com",
       "password": "bb",
-      "id": 2
+      "id": 1
     }
   ],
   "apiaries": [
-    {
-      "name": "Apiary2",
-      "location": "456 way",
-      "userId": 2,
-      "id": 2
-    },
     {
       "name": "Apiary4",
       "location": "Another place road",
@@ -32,46 +19,27 @@
       "location": "123 place",
       "userId": 1,
       "id": 5
-    },
-    {
-      "name": "Apiary3",
-      "location": "sidv[oaso[gsod",
-      "userId": 2,
-      "id": 6
-    },
-    {
-      "name": "Apiary4",
-      "location": "dfijaegoadfhbiuaheg",
-      "userId": 2,
-      "id": 7
     }
   ],
   "hives": [
     {
       "id": 1,
-      "apiaryId": 2,
-      "beeTypeId": 1,
-      "hiveTypeId": 1,
-      "name": "Hive1",
-      "queenAge": "1 yrs"
-    },
-    {
-      "id": 1,
-      "apiaryId": 2,
-      "beeTypeId": 1,
-      "hiveTypeId": 1,
-      "name": "Hive2",
-      "queenAge": "1 yrs"
+      "apiaryId": 4,
+      "name": "Thrivin' Hive",
+      "beeTypeId": "5",
+      "hiveTypeId": "1",
+      "queenAge": "10j"
     }
   ],
   "logs": [
     {
-      "id": 1,
-      "hiveId": 1,
+      "date": "2020-05-28",
+      "time": "14:13",
+      "weather": "Very pleasant",
       "insTypeId": 1,
-      "date": "11-20-20",
-      "weather": "Warm and sunny with heavy winds",
-      "notes": "This is a dated log file that contains a lot of important information that has been autopopulated as well as manually entered if chosen. This can include more specific weather information, health information, and any various details and assessment. "
+      "notes": "asvfFASN OAIV'OIWEO'HOohhsdofvh'aohvo'a",
+      "hiveId": 1,
+      "id": 2
     }
   ],
   "beeTypes": [
@@ -116,15 +84,15 @@
       "type": "General Inspection"
     },
     {
-      "id": 1,
+      "id": 2,
       "type": "First Spring Checkup"
     },
     {
-      "id": 1,
+      "id": 3,
       "type": "Pest Inspection"
     },
     {
-      "id": 1,
+      "id": 4,
       "type": "Final Fall Checkup"
     }
   ]
